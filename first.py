@@ -134,3 +134,62 @@ print (type(x))
 ran =range(6)
 for i in ran:
     print(i)
+
+# operator
+
+# floor division
+    # floor division use kora vag fol ar por ja dosomik sonkha ta kata fala
+    sum1=15
+    sum2=7
+    print(sum1//sum2)
+
+
+#swapping
+    c=60
+    d=50
+    c,d=d,c
+    print(c)
+    print(d) 
+
+    # user input
+
+    # username = input("Enter username:")
+    # # passwoard=input("enter your passworad  " )
+
+    # print(username)
+
+
+# list data add
+    # append
+    hablu1=[1,3,54,6,7,8,9]
+hablu1.append(10)
+print(hablu1)
+# insert
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+print(thislist)
+
+# Loop Through a List
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+  print(i)
+# Using a While Loop
+  thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+  print(thislist[i])
+  i = i + 1
+
+#   List Comprehension
+  
+  list=[1,2,3,4,5,6]
+  double=[i*2 for i in list]
+  print(double)
+
+  thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)
